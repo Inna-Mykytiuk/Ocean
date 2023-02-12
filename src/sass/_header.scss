@@ -1,0 +1,90 @@
+// .container {
+
+// }
+
+.hero1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/hero1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero2 {
+  width: 100%;
+  height: 450px;
+  background-image: url(../images/octopus.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  // filter: blur(5px);
+}
+
+.hero3 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/ocean1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: auto;
+}
+
+.save {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  color: white;
+  font-weight: 900;
+  font-size: 180px;
+  line-height: 1;
+  backdrop-filter: blur(10px);
+  padding: 30px;
+}
+
+.save span {
+  font-weight: 900;
+  font-style: italic;
+  font-size: 180px;
+}
+
+.save__text {
+  display: inline-block;
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  width: 800px;
+  padding: 60px;
+  font-size: 18px;
+  color: #fff;
+  backdrop-filter: blur(10px);
+}
+
+.save__text1 {
+  display: inline-block;
+  position: absolute;
+  display: inline-block;
+
+  width: 800px;
+  padding: 50px;
+  font-size: 18px;
+  color: #fff;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 70, 110, 0.2);
+  backdrop-filter: blur(10px);
+  text-align: center;
+}

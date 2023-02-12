@@ -1,0 +1,111 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  letter-spacing: 0.02em;
+  font-size: 14px;
+  line-height: 1.85;
+  overflow-x: hidden;
+  margin: 0 auto;
+  transition: 1.5s;
+}
+
+main {
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  // letter-spacing: 0.02em;
+  // font-size: 14px;
+  // line-height: 1.85;
+  // background: rgb(168, 191, 179);
+  // background: linear-gradient(
+  //   180deg,
+  //   rgba(168, 191, 179, 0.35057773109243695) 25%,
+  //   rgba(96, 155, 173, 0.4514180672268907) 70%
+  // );
+}
+
+body::-webkit-scrollbar {
+  appearance: none;
+  background: #000;
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 5px;
+}
+
+img {
+  display: block;
+  // max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0 auto;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.example {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #2f2f37;
+  max-width: 960px;
+  padding: 16px;
+}
+
+.example code {
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #ff6b0a;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.example .background {
+  height: 240px;
+  // ❗️❗️❗️ The path to images from a SASS file
+  // is always the same as from the css folder.
+  background-image: url('../images/logo.png');
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
