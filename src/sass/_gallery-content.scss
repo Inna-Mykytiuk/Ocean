@@ -1,0 +1,35 @@
+.works__content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+
+  background-color: rgba(0, 70, 110, 0.7);
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+
+.gallery__link:hover .works__content {
+  opacity: 1;
+}
+
+.works__title {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  margin-bottom: 5px;
+}
+
+.works__text {
+  font-size: 14px;
+  color: #ffffff;
+}
