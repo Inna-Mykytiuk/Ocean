@@ -1,4 +1,4 @@
-.works__content {
+.gallery__content {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -16,11 +16,11 @@
   transition: opacity 0.2s linear;
 }
 
-.gallery__link:hover .works__content {
+.gallery__link:hover .gallery__content {
   opacity: 1;
 }
 
-.works__title {
+.gallery__title {
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -29,7 +29,9 @@
   margin-bottom: 5px;
 }
 
-.works__text {
+.gallery__text {
+  display: block;
+  width: 200px;
   font-size: 14px;
   color: #ffffff;
 }
