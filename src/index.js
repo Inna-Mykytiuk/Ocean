@@ -502,7 +502,7 @@
     var self = this;
 
     // Enable anchor clicks in the injected caption html.
-    // Thanks Nate Wright for the fix. @https://github.com/NateWr
+
     if (
       typeof this.album[this.currentImageIndex].title !== 'undefined' &&
       this.album[this.currentImageIndex].title !== ''
@@ -596,4 +596,3 @@
 
   return new Lightbox();
 });
-
