@@ -20,7 +20,8 @@
   "dependencies": {
     "jquery": "^3.6.3",
     "modern-normalize": "^1.1.0",
-    "simplelightbox": "^2.12.1"
+    "simplelightbox": "^2.12.1",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",

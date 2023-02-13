@@ -596,3 +596,4 @@
 
   return new Lightbox();
 });
+
