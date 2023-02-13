@@ -3,39 +3,75 @@
 .reviews {
   padding: 0 110px;
   position: relative;
+  height: 230px;
 }
 
 .reviews-item {
+  height: 230px;
   padding-left: 255px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.reviews-photo {
+.reviews-photo,
+.reviews-photo1,
+.reviews-photo2,
+.reviews-photo3,
+.reviews-photo4 {
   width: 190px;
   height: 190px;
   display: block;
 
-  border: 2px solid #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  // border: 2px solid #fff;
   border-radius: 50%;
   position: absolute;
-  top: 0;
+  top: 20px;
   left: 0;
   z-index: 1;
+  box-shadow: 9px 10px 68px 1px rgba(0, 70, 110, 0.2);
+  -webkit-box-shadow: 9px 10px 68px 1px rgba(0, 70, 110, 0.75);
+  -moz-box-shadow: 9px 10px 68px 1px rgba(0, 70, 110, 0.75);
 }
 
-.reviews-text {
+.reviews-photo {
+  background-image: url(../images/montale.jpg);
+}
+.reviews-photo1 {
+  background-image: url(../images/cousteau.webp);
+}
+.reviews-photo2 {
+  background-image: url(../images/wyland.jpg);
+}
+.reviews-photo3 {
+  background-image: url(../images/carson.jpg);
+}
+.reviews-photo4 {
+  background-image: url(../images/wordsworth.jpg);
+}
+
+.reviews-photo .reviews-text {
   font-size: 24px;
+  font-family: inherit;
   font-style: italic;
   font-weight: 300;
   color: #999;
 
   margin-bottom: 10px;
+  margin-left: 30px;
 }
 
 .reviews-author {
   font-size: 24px;
   color: #333;
-  font-family: 'Kaushan Script', cursive;
+  font-family: inherit;
+  font-style: italic;
+  margin-left: 30px;
 }
 
 .reviews-author::before {
@@ -47,6 +83,16 @@
   height: 3px;
   background-color: #f38181;
   margin-right: 10px;
+}
+
+.reviews-text {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  color: #999;
+
+  margin-bottom: 10px;
+  margin-left: 30px;
 }
 
 .reviews-btn {
@@ -76,4 +122,9 @@
 .reviews-btn--next {
   right: 0%;
   transform: rotate(135deg);
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #607b83;
 }
