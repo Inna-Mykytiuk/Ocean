@@ -22,7 +22,6 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 50px 15px;
 }
 
 .full-screen__body {
@@ -33,6 +32,8 @@
   flex: 1 1 auto;
   justify-content: center;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 50px 15px;
 }
 
 .full-screen__title {
