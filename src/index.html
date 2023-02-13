@@ -211,19 +211,9 @@
             <h3 class="section-suptitle">Ocean</h3>
             <h2 class="section-title">Quotes of famous people</h2>
           </div>
-          <div class="section-text">
-            <p>
-              Ocean conservation organizations work to protect the health and
-              diversity of marine ecosystems. Their efforts include reducing
-              ocean pollution, protecting endangered species, promoting
-              sustainable fishing practices, and advocating for ocean
-              conservation policies. By educating the public and working with
-              governments, these organizations play a critical role in
-              preserving the world's oceans for future generations.
-            </p>
-          </div>
         </div>
 
+        <!-- Slider -->
         <div class="container">
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
@@ -299,6 +289,60 @@
           </div>
         </div>
       </section>
+
+      <!-- Organizations -->
+      <section class="section" id="organization">
+        <div class="organization-wrapper">
+          <div class="container">
+            <ul class="organization__list">
+              <li class="organization__item">
+                <a
+                  class="organization__link"
+                  href="https://oceanconservancy.org/"
+                  aria-label="іконка"
+                >
+                  <svg class="organization__icon" width="106" height="60">
+                    <use href="./images/icons.svg#icon-conservansy"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="organization__item">
+                <a
+                  class="organization__link"
+                  href="https://sdgs.un.org/partnerships/global-ocean-refuge-system"
+                  aria-label="іконка"
+                >
+                  <svg class="organization__icon" width="106" height="60">
+                    <use href="./images/icons.svg#icon-globaloceanrefuge"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="organization__item">
+                <a
+                  class="organization__link"
+                  href="https://oceana.org/"
+                  aria-label="іконка"
+                >
+                  <svg class="organization__icon" width="106" height="60">
+                    <use href="./images/icons.svg#icon-oceana"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="organization__item">
+                <a
+                  class="organization__link"
+                  href="https://www.surfrider.org/"
+                  aria-label="іконка"
+                >
+                  <svg class="organization__icon" width="106" height="60">
+                    <use href="./images/icons.svg#icon-surfrider"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- ❗️❗️❗️ Add partials like so for every page -->
@@ -307,20 +351,6 @@
 
     <script src="./index.js" type="module"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script>
-      var swiper = new Swiper('.mySwiper', {
-        loop: true,
-        // pagination: {
-        //   el: '.swiper-pagination',
-        //   clickable: true,
-        // },
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-      });
-    </script>
-
-    <script src="./slider.js" type="module"></script>
+    <script src="./slider.js"></script>
   </body>
 </html>
