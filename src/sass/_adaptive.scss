@@ -87,11 +87,38 @@
     font-size: 14px;
     line-height: 1.5;
   }
+
+  // .swiper-button-next,
+  // .swiper-button-prev {
+  //   width: 20px;
+  //   height: 20px;
+  // }
+  .reviews-item,
+  .reviews {
+    padding: 0;
+  }
+
+  .reviews-photo,
+  .reviews-photo1,
+  .reviews-photo2,
+  .reviews-photo3,
+  .reviews-photo4 {
+    display: none;
+  }
+
+  .reviews-text {
+    font-size: 18px;
+    padding: 0 30px;
+  }
+  .reviews-author {
+    margin: 0 auto;
+  }
 }
+// #607b83;
 
 @media (max-width: 380px) {
   .section-title {
-    font-size: 24px;
+    font-size: 20px;
   }
   .save {
     text-align: center;
