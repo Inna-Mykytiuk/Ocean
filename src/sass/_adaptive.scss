@@ -62,7 +62,7 @@
     display: block;
   }
 
-  .gallery {
+  .gallery-m {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 
@@ -73,6 +73,9 @@
 }
 
 @media (max-width: 480px) {
+  .section-title {
+    font-size: 24px;
+  }
   .save {
     text-align: center;
     font-size: 80px;
@@ -162,7 +165,7 @@
     display: none;
   }
 
-  .section.gallery {
+  .section.gallery-m {
     padding-bottom: 0;
   }
 }
