@@ -146,6 +146,9 @@
   .footer__inner {
     flex-direction: column;
   }
+  .organization__item.repeat {
+    display: block;
+  }
 }
 
 @media (max-width: 380px) {
@@ -191,5 +194,11 @@
   }
   .save__text {
     margin-top: 180px;
+  }
+}
+
+@media (min-width: 768px) {
+  .organization__item.repeat {
+    display: none;
   }
 }
