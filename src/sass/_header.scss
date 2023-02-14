@@ -41,7 +41,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 650px;
+  max-width: 650px;
   color: white;
   font-weight: 900;
   font-size: 120px;
@@ -249,7 +249,7 @@
   bottom: -8px;
 }
 
-@media (max-width: 770px) {
+@media (max-width: 768px) {
   /* nav */
   .nav {
     width: 100%;
@@ -278,5 +278,41 @@
 
   .nav-toggle {
     display: block;
+  }
+}
+
+@media (max-width: 480px) {
+  .save {
+    text-align: center;
+    font-size: 80px;
+    padding-top: 100px;
+  }
+  .save span {
+    font-size: 90px;
+  }
+  .save__text {
+    max-width: 350px;
+    margin-top: 150px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .hero2 {
+    height: 350px;
+  }
+}
+
+@media (max-width: 400px) {
+  .save {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 80px;
+  }
+  .save span {
+    font-size: 70px;
+  }
+
+  .hero2 {
+    height: 250px;
   }
 }
