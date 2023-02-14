@@ -1,0 +1,58 @@
+@mixin font($fw, $fs, $lh, $ls) {
+  line-height: $lh;
+  letter-spacing: $ls;
+  font-weight: $fw;
+  font-size: $fs;
+}
+
+$breakpoints: (
+  'mobileBox': 450px,
+  'mobile': 480px,
+  'tabletBox': 738px,
+  'tablet': 768px,
+  'desktop': 1200px,
+);
+
+@mixin mobile {
+  @media screen and (min-width: 480px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin media($size) {
+  @media screen and (min-width: $size) {
+    @content;
+  }
+}
+
+@mixin calc($count) {
+  width: calc((100% - 30px * ($count - 1)) / $count);
+}
+
+@mixin retina {
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    @content;
+  }
+}
+
+@mixin retinathird {
+  @media (min-device-pixel-ratio: 3),
+    (min-resolution: 288dpi),
+    (min-resolution: 3dppx) {
+    @content;
+  }
+}
