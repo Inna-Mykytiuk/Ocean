@@ -79,8 +79,10 @@ ol {
   margin: 0;
 }
 
-.link {
+a {
   text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 .example {
