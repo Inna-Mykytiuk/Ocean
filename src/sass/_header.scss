@@ -34,12 +34,13 @@
 }
 
 .save {
-  position: absolute;
-  width: fit-content;
-  height: fit-content;
+  // position: absolute;
+  // width: fit-content;
+  // height: fit-content;
 
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   width: 650px;
   color: white;
   font-weight: 900;
@@ -56,15 +57,16 @@
 }
 
 .save__text {
-  display: inline-block;
-  position: absolute;
-  display: inline-block;
-  bottom: 0;
-  width: 1000px;
-  padding: 60px;
-  font-size: 18px;
+  // position: absolute;
+  // bottom: 0;
+
+  max-width: 1000px;
   color: #fff;
   backdrop-filter: blur(10px);
+  font-size: 18px;
+  display: block;
+  text-align: center;
+  margin-top: 300px;
 }
 
 .save__text1 {
@@ -91,23 +93,6 @@
 .nav {
   font-size: 14px;
   text-transform: uppercase;
-
-  width: 100%;
-  display: flex;
-  gap: 70px;
-  z-index: 999;
-  color: #fff;
-  backdrop-filter: blur(10px);
-  /* display: grid; */
-  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-  padding: 20px 50px 20px 50px;
-  position: fixed;
-  top: 0;
-  right: 0;
-  justify-content: flex-end;
-  transition: all 0.3s ease-in-out;
-  backdrop-filter: blur(3rem);
-  background-color: rgba(0, 70, 110, 0.1);
 }
 
 .nav-link {
@@ -165,14 +150,22 @@
 }
 
 .header.fixed {
-  background-color: rgba(0, 70, 110, 0.1);
+  width: 100%;
+  gap: 70px;
+  z-index: 999;
+  padding: 10px 50px;
   position: fixed;
+  top: 0;
   right: 0;
   left: 0;
-  top: 0;
-  transform: translate3d(0, 0, 0);
-  padding: 15px 0;
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 70, 110, 0.1);
   box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
 }
 
 .header.active {
@@ -187,6 +180,7 @@
 
 .header-logo {
   font-size: 30px;
+  font-style: italic;
   font-weight: 700;
   color: #fff;
   cursor: pointer;
