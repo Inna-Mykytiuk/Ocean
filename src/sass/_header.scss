@@ -247,3 +247,22 @@
 .nav-toggle-item::after {
   bottom: -8px;
 }
+
+.burger {
+  display: none;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  padding: 20px 10px;
+}
+
+.burger__item {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #ffffff;
+
+  font-size: 0;
+  color: transparent;
+  position: relative;
+}
