@@ -29,6 +29,9 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
+  .footer {
+    height: 480px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -64,6 +67,14 @@
 
   .gallery {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  // .footer__inner {
+  //   flex-direction: row;
+  // }
+
+  .footer {
+    height: 120px;
   }
 
   // .organization__list {

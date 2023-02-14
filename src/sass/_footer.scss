@@ -7,11 +7,12 @@
 .footer__inner {
   display: flex;
   flex-wrap: wrap;
-  padding: 70px 0;
+  // padding: 70px 0;
+  flex-direction: row;
 }
 
 .footer__block {
-  width: 100%;
+  width: 33.3333%;
   text-align: center;
   padding: 15px 15px;
 }
