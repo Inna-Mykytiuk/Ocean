@@ -87,12 +87,10 @@
     font-size: 14px;
     line-height: 1.5;
   }
+  .save__text1 {
+    width: 350px;
+  }
 
-  // .swiper-button-next,
-  // .swiper-button-prev {
-  //   width: 20px;
-  //   height: 20px;
-  // }
   .reviews-item,
   .reviews {
     padding: 0;
@@ -107,11 +105,28 @@
   }
 
   .reviews-text {
-    font-size: 18px;
+    font-size: 22px;
     padding: 0 30px;
   }
   .reviews-author {
+    font-size: 20px;
     margin: 0 auto;
+  }
+
+  .lb-prev,
+  .lb-next {
+    width: 20px;
+    height: 20px;
+  }
+  .lb-prev {
+    left: 15px;
+  }
+  .lb-next {
+    right: 15px;
+  }
+  .lb-data .lb-close {
+    width: 20px;
+    height: 20px;
   }
 }
 // #607b83;
