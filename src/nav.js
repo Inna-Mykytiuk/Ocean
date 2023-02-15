@@ -65,5 +65,3 @@ $(function () {
     slidesToScroll: 1,
   });
 });
-
-// Smooth scroll
