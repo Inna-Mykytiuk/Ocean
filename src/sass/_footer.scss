@@ -1,56 +1,192 @@
-.footer {
+// .footer {
+//   width: 100%;
+//   /* margin: 90px 0; */
+//   background-color: #607b83;
+// }
+
+// .footer__inner {
+//   display: flex;
+//   flex-wrap: wrap;
+//   // padding: 70px 0;
+//   flex-direction: row;
+// }
+
+// .footer__block {
+//   width: 33.3333%;
+//   text-align: center;
+//   padding: 15px 15px;
+// }
+
+// .footer__title {
+//   font-weight: 700;
+//   font-size: 14px;
+//   text-transform: uppercase;
+//   color: #ffffff;
+//   margin-bottom: 10px;
+// }
+
+// .footer__address {
+//   font-size: 14px;
+//   line-height: 1.5;
+//   color: rgba(255, 255, 255, 0.5);
+// }
+
+// .footer__text {
+//   font-size: 14px;
+//   line-height: 1.5;
+//   color: rgba(255, 255, 255, 0.5);
+// }
+
+// /* Copyright */
+
+// .copyright {
+//   padding: 30px 0;
+//   background-color: #607b83;
+// }
+
+// .copyright__text {
+//   text-align: center;
+//   font-size: 14px;
+//   line-height: 1.5;
+//   color: #ffffff;
+// }
+
+// .copyright__text span {
+//   color: #fce38a;
+// }
+
+.footer-section {
   width: 100%;
-  /* margin: 90px 0; */
   background-color: #607b83;
+  text-decoration: none;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.footer__inner {
-  display: flex;
-  flex-wrap: wrap;
-  // padding: 70px 0;
-  flex-direction: row;
+.footer__link {
+  color: #fff;
+  // font-family: $secondary-font;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 
-.footer__block {
-  width: 33.3333%;
-  text-align: center;
-  padding: 15px 15px;
-}
-
-.footer__title {
-  font-weight: 700;
-  font-size: 14px;
-  text-transform: uppercase;
-  color: #ffffff;
-  margin-bottom: 10px;
-}
-
-.footer__address {
-  font-size: 14px;
-  line-height: 1.5;
-  color: rgba(255, 255, 255, 0.5);
+.footer__logo {
+  color: #fce38a;
 }
 
 .footer__text {
+  color: #fff;
+  text-transform: uppercase;
   font-size: 14px;
-  line-height: 1.5;
-  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+
+  margin-bottom: 20px;
 }
 
-/* Copyright */
-
-.copyright {
-  padding: 30px 0;
-  background-color: #607b83;
+.footer-social__list {
+  display: flex;
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
 }
 
-.copyright__text {
+.footer-social__link {
+  display: block;
+  color: #fff;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: #fce38a;
+  }
+}
+
+.footer-social__icon {
+  display: block;
+  fill: currentColor;
+}
+
+.footer-social__item {
+  margin-right: 10px;
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+
+.address__part {
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
-  font-size: 14px;
-  line-height: 1.5;
-  color: #ffffff;
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  @media (min-width: 1200px) {
+    text-align: left;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: baseline;
+
+    // justify-content: space-between;
+  }
 }
 
-.copyright__text span {
-  color: #fce38a;
+.address {
+  font-style: normal;
+  &__item {
+    margin-top: 9px;
+  }
+  @media (min-width: 768px) {
+    margin-bottom: 0;
+  }
+}
+
+.footer {
+  @media (max-width: 768px) {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  @media (min-width: 767px) {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 1200px) {
+    width: 206px;
+    margin-right: 93px;
+    margin-left: 70px;
+  }
+}
+
+.address__link {
+  display: block;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: #fce38a;
+  }
+}
+
+.address__link--location {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 20px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: #fce38a;
+  }
 }
