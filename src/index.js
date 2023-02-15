@@ -598,19 +598,19 @@
 });
 
 // Smooth scroll
-// const sections = document.querySelectorAll('section:not(:last-child)');
-// const footerScroll = document.querySelector('.footer-section');
+const sections = document.querySelectorAll('section:not(:last-child)');
+const footerScroll = document.querySelector('.footer-section');
 
-// window.addEventListener('scroll', function () {
-//   for (let section of sections) {
-//     if (section.getBoundingClientRect().top < 100) {
-//       section.style.marginTop = '80px';
-//       footerScroll.style.marginBottom = '0';
-//     } else {
-//       section.style.marginTop = '0';
-//     }
-//   }
-// });
+window.addEventListener('scroll', function () {
+  for (let section of sections) {
+    if (section.getBoundingClientRect().top < 100) {
+      section.style.marginTop = '80px';
+      footerScroll.style.marginBottom = '0';
+    } else {
+      section.style.marginTop = '0';
+    }
+  }
+});
 
 const anchors = document.querySelectorAll(`a[href*='#']`);
 
