@@ -63,6 +63,16 @@
   .reviews-item {
     padding-left: 200px;
   }
+  .full-screen__title {
+    text-align: center;
+    font-size: 60px;
+  }
+  .full-screen__text {
+    max-width: 350px;
+    text-align: center;
+    font-size: 26px;
+    padding: 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -147,6 +157,17 @@
     font-size: 20px;
     margin: 0 auto;
   }
+
+  .full-screen__title {
+    text-align: center;
+    font-size: 50px;
+  }
+  .full-screen__text {
+    max-width: 350px;
+    text-align: center;
+    font-size: 24px;
+    padding: 0;
+  }
 }
 
 @media (max-width: 480px) {
@@ -185,17 +206,6 @@
   .lb-data .lb-close {
     width: 20px;
     height: 20px;
-  }
-
-  .full-screen__title {
-    text-align: center;
-    font-size: 50px;
-  }
-  .full-screen__text {
-    max-width: 350px;
-    text-align: center;
-    font-size: 24px;
-    padding: 0;
   }
 
   .footer__inner {
