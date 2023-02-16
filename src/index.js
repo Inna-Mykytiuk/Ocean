@@ -596,31 +596,3 @@
 
   return new Lightbox();
 });
-
-// Smooth scroll
-// const sections = document.querySelectorAll('section:not(:last-child)');
-// const footerScroll = document.querySelector('.footer-section');
-
-// window.addEventListener('scroll', function () {
-//   for (let section of sections) {
-//     if (section.getBoundingClientRect().top < 100) {
-//       section.style.marginTop = '80px';
-//       footerScroll.style.marginBottom = '0';
-//     } else {
-//       section.style.marginTop = '0';
-//     }
-//   }
-// });
-
-// const anchors = document.querySelectorAll(`a[href*='#']`);
-
-// for (let anchor of anchors) {
-//   anchor.addEventListener('click', function (event) {
-//     event.preventDefault();
-//     const blockId = anchor.getAttribute('href');
-//     document.querySelector('' + blockId).scrollIntoView({
-//       behavior: 'smooth',
-//       block: 'start',
-//     });
-//   });
-// }
