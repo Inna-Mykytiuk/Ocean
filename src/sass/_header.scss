@@ -81,8 +81,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(0, 70, 110, 0.2);
-  // backdrop-filter: blur(10px);
+  // background-color: rgba(0, 70, 110, 0.4);
+  backdrop-filter: blur(10px);
   // backdrop-filter: blur(3px);
   text-align: center;
 }
