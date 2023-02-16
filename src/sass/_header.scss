@@ -164,6 +164,9 @@
 
   transition: all 0.3s ease-in-out;
   color: #fff;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 70, 110, 0.3);
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
 
   /* display: grid; */
   /* grid-template-columns: 1fr 1fr 1fr 1fr; */

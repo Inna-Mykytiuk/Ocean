@@ -282,6 +282,28 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  // window.addEventListener('scroll', setActiveLink);
+
+  // const navtoggle = document.querySelector('#nav_toggle');
+  // const nav = document.querySelector('#nav');
+
+  // navtoggle.addEventListener('click', function (event) {
+  //   event.preventDefault();
+
+  //   navToggle.classList.toggle('active');
+  //   nav.classList.toggle('active');
+  // });
+
+  // // Collapse
+  // const collapseElements = document.querySelectorAll('[data-collapse]');
+
+  // collapseElements.forEach(function (element) {
+  //   element.addEventListener('click', function (event) {
+  //     event.preventDefault();
+
+  //     element.classList.toggle('active');
+  //   });
+  // });
   window.addEventListener('scroll', setActiveLink);
 
   const navtoggle = document.querySelector('#nav_toggle');
@@ -302,6 +324,25 @@ document.addEventListener('DOMContentLoaded', () => {
       event.preventDefault();
 
       element.classList.toggle('active');
+    });
+  });
+
+  // Close modal when link is clicked
+  const modalLinks = document.querySelectorAll('#nav a[href^="#"]');
+  modalLinks.forEach(link => {
+    link.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        const offsetTop = target.offsetTop - 100;
+        window.scrollTo({
+          top: offsetTop,
+          behavior: 'smooth',
+        });
+
+        navToggle.classList.remove('active');
+        nav.classList.remove('active');
+      }
     });
   });
 });
