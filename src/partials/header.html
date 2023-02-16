@@ -1,14 +1,16 @@
-<div class="header fixed">
+<div class="header" id="header">
   <div class="container">
     <div class="header-inner">
-      <a href="#header" class="header-logo">Ocean</a>
-      <div class="nav anchor" id="nav">
-        <a href="#header" class="nav-link">Home</a>
-        <a href="#stories" class="nav-link">Stories</a>
+      <a href="./index.html" class="header-logo">Ocean</a>
+      <div class="nav" id="nav">
+        <a href="./index.html" class="nav-link">Home</a>
+        <!-- <a href="#stories" class="nav-link">Stories</a> -->
         <a href="#gallery" class="nav-link">Gallery</a>
         <a href="#scientists" class="nav-link">Quotes</a>
         <a href="#organization" class="nav-link">Organizations</a>
-        <a href="#contacts" class="nav-link">Contacts</a>
+        <a href="#contacts" class="nav-link" data-scroll="#contacts"
+          >Contacts</a
+        >
       </div>
       <button class="nav-toggle" id="nav_toggle" type="button">
         <span class="nav-toggle-item"></span>
@@ -17,9 +19,9 @@
   </div>
 </div>
 
-<div class="hero1">
+<div class="hero1" id="intro">
   <div class="container">
-    <h1 class="save">Save the<span> Ocean</span></h1>
+    <h1 class="save" id="home">Save the<span> Ocean</span></h1>
     <p class="save__text">
       Once upon a time, the earth was just a hot, molten ball of fire. But as it
       cooled, the continents took shape and the oceans arose. The ocean was born
