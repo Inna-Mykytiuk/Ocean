@@ -1,0 +1,33 @@
+.section.waves {
+  padding: 0;
+}
+
+.waves {
+  margin: 0;
+  overflow: hidden;
+  background-color: #607b83;
+}
+.waves-use {
+  animation: move-forever 5s linear infinite;
+  &:nth-child(2) {
+    animation-duration: 3.5s;
+    animation-delay: -2.5s;
+  }
+  &:nth-child(1) {
+    animation-duration: 7s;
+  }
+}
+
+@keyframes move-forever {
+  0% {
+    transform: translate(-2px, 0);
+  }
+  100% {
+    transform: translate(0px, 0);
+  }
+}
+
+.waves-svg {
+  width: 100vw;
+  height: 250px;
+}
