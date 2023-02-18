@@ -2,14 +2,14 @@
   .save {
     text-align: center;
     font-size: 80px;
-    padding-top: 150px;
+    // padding-top: 150px;
   }
   .save span {
     font-size: 100px;
   }
   .save__text {
     max-width: 700px;
-    margin-top: 200px;
+    // margin-top: 200px;
     font-size: 14px;
     line-height: 1.5;
   }
@@ -176,14 +176,14 @@
   .save {
     text-align: center;
     font-size: 50px;
-    padding-top: 100px;
+    // padding-top: 100px;
   }
   .save span {
     font-size: 90px;
   }
   .save__text {
     max-width: 350px;
-    margin-top: 150px;
+    // margin-top: 150px;
     font-size: 14px;
     line-height: 1.5;
   }
@@ -283,13 +283,13 @@
 }
 
 @media screen and (min-width: 413px) and (max-width: 415px) {
-  .save {
-    font-size: 50px;
-    padding-top: 100px;
-  }
-  .save__text {
-    margin-top: 180px;
-  }
+  // .save {
+  //   font-size: 50px;
+  //   padding-top: 100px;
+  // }
+  // .save__text {
+  //   margin-top: 180px;
+  // }
 }
 
 @media (min-width: 768px) {
