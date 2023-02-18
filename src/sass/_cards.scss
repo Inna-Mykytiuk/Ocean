@@ -13,10 +13,17 @@
   //   rgba(49, 94, 110, 0.6446953781512605) 70%
   // );
 
-  background: rgb(89, 182, 214);
+  // background: rgb(89, 182, 214);
+  // background: linear-gradient(
+  //   180deg,
+  //   rgba(89, 182, 214, 0.48503151260504207) 25%,
+  //   rgba(96, 123, 131, 1) 70%
+  // );
+
+  background: rgb(255, 255, 255);
   background: linear-gradient(
     180deg,
-    rgba(89, 182, 214, 0.48503151260504207) 25%,
+    rgba(255, 255, 255, 0.48503151260504207) 25%,
     rgba(96, 123, 131, 1) 70%
   );
 }
@@ -80,7 +87,12 @@ img {
 }
 
 .card_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 1rem;
+  height: 100%;
+
   // background: linear-gradient(to bottom left, #ef8d9c 40%, #ffc39e 100%);
   // background: rgb(168, 191, 179);
   // background: linear-gradient(
@@ -89,7 +101,8 @@ img {
   //   rgba(49, 94, 110, 0.6446953781512605) 70%
   // );
 
-  background: rgba(136, 178, 193, 0.8);
+  // background: rgba(136, 178, 193, 0.8);
+  background: rgba(62, 121, 142, 0.5);
 }
 
 .card_title {
@@ -99,6 +112,8 @@ img {
   letter-spacing: 1px;
   text-transform: capitalize;
   margin: 0px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .card_text {
@@ -113,4 +128,12 @@ img {
   font-size: 13px;
   margin-top: 35px;
   text-align: center;
+}
+
+.blur {
+  filter: blur(2px);
+}
+
+.cards_item.hover {
+  transform: scale(1.05);
 }
