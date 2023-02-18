@@ -51,10 +51,12 @@ img {
   cursor: pointer;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: transparent;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .btn:hover {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: rgba(252, 227, 138, 0.8);
+  color: #607b83;
 }
 
 .cards {
@@ -97,16 +99,6 @@ img {
   justify-content: space-between;
   padding: 1rem;
   height: 100%;
-
-  // background: linear-gradient(to bottom left, #ef8d9c 40%, #ffc39e 100%);
-  // background: rgb(168, 191, 179);
-  // background: linear-gradient(
-  //   180deg,
-  //   rgba(168, 191, 179, 0.6615021008403361) 25%,
-  //   rgba(49, 94, 110, 0.6446953781512605) 70%
-  // );
-
-  // background: rgba(136, 178, 193, 0.8);
   background: rgba(62, 121, 142, 0.5);
 }
 
