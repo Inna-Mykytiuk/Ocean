@@ -6,14 +6,12 @@
   .save {
     text-align: center;
     font-size: 80px;
-    // padding-top: 150px;
   }
   .save span {
     font-size: 120px;
   }
   .save__text {
     max-width: 700px;
-    // margin-top: 200px;
     font-size: 14px;
     line-height: 1.5;
   }
@@ -203,9 +201,6 @@
   .ocean__item.second {
     margin-top: 0;
   }
-  // .ocean-list {
-  //   overflow-y: scroll;
-  // }
 }
 
 @media (max-width: 480px) {
