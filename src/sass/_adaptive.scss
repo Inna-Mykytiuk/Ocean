@@ -327,8 +327,9 @@
   }
 }
 
-@media (min-width: 1190px) {
-  .gallery__link.hidden {
+@media (min-width: 1100px) {
+  .gallery__link.hidden1,
+  .gallery__link.hidden2 {
     display: block;
   }
 }
