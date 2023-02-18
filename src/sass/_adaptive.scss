@@ -5,7 +5,7 @@
     // padding-top: 150px;
   }
   .save span {
-    font-size: 100px;
+    font-size: 120px;
   }
   .save__text {
     max-width: 700px;
@@ -167,6 +167,22 @@
     font-size: 24px;
     padding: 0;
   }
+
+  .lb-prev,
+  .lb-next {
+    width: 30px;
+    height: 30px;
+  }
+  .lb-prev {
+    left: 20px;
+  }
+  .lb-next {
+    right: 20px;
+  }
+  .lb-data .lb-close {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -243,8 +259,7 @@
   .save {
     text-align: center;
     font-size: 50px;
-
-    padding-top: 80px;
+    padding-top: 40px;
   }
   .save span {
     font-size: 70px;
