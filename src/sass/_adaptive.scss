@@ -188,6 +188,10 @@
     width: 30px;
     height: 30px;
   }
+
+  .waves-svg {
+    height: 200px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -333,6 +337,9 @@
   }
   .footer-form__input {
     min-width: 350px;
+  }
+  .waves-svg {
+    height: 350px;
   }
 }
 
