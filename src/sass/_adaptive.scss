@@ -328,22 +328,26 @@
   .footer-form__input {
     min-width: 350px;
   }
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
 }
 
 @media (min-width: 1100px) {
-  .gallery__link.hidden1 {
-    display: block;
-  }
-}
-
-@media (max-width: 1200px) {
-  .gallery {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }
-}
-
-@media (min-width: 1200px) {
+  .gallery__link.hidden1,
   .gallery__link.hidden2 {
     display: block;
   }
 }
+
+// @media (max-width: 1200px) {
+//   .gallery {
+//     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+//   }
+// }
+
+// @media (min-width: 1200px) {
+//   .gallery__link.hidden2 {
+//     display: block;
+//   }
+// }
