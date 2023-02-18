@@ -333,21 +333,28 @@
   }
 }
 
-@media (min-width: 1360px) {
+@media (min-width: 1440px) {
+  .gallery__link.hidden1 {
+    display: block;
+  }
+}
+
+@media (min-width: 1920px) {
+  .gallery__link.hidden1,
+  .gallery__link.hidden2 {
+    display: none;
+  }
+}
+@media (min-width: 2304px) {
   .gallery__link.hidden1,
   .gallery__link.hidden2 {
     display: block;
   }
 }
-
-// @media (max-width: 1200px) {
-//   .gallery {
-//     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-//   }
-// }
-
-// @media (min-width: 1200px) {
-//   .gallery__link.hidden2 {
-//     display: block;
-//   }
-// }
+@media (min-width: 2560px) {
+  .gallery__link.hidden1,
+  .gallery__link.hidden2,
+  .gallery__link.hidden3 {
+    display: block;
+  }
+}
