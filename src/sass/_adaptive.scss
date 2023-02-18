@@ -201,14 +201,12 @@
   .save {
     text-align: center;
     font-size: 50px;
-    // padding-top: 100px;
   }
   .save span {
     font-size: 90px;
   }
   .save__text {
     max-width: 350px;
-    // margin-top: 150px;
     font-size: 14px;
     line-height: 1.5;
   }
@@ -307,14 +305,6 @@
 }
 
 @media screen and (min-width: 667px) and (max-width: 896px) {
-  // (min-width: 413px) and (max-width: 415px)
-  // .save {
-  //   font-size: 50px;
-  //   padding-top: 100px;
-  // }
-  // .save__text {
-  //   margin-top: 180px;
-  // }
   .gallery__link.hidden2 {
     display: block;
   }
