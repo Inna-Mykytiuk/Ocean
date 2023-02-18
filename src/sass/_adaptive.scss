@@ -76,6 +76,10 @@
     font-size: 26px;
     padding: 0;
   }
+  .ocean__item.first,
+  .ocean__item.second {
+    margin-top: 80px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -192,6 +196,16 @@
   .waves-svg {
     height: 200px;
   }
+
+  .ocean__item.first {
+    margin-top: 80px;
+  }
+  .ocean__item.second {
+    margin-top: 0;
+  }
+  // .ocean-list {
+  //   overflow-y: scroll;
+  // }
 }
 
 @media (max-width: 480px) {
@@ -369,9 +383,6 @@
 }
 
 @media (max-height: 540px) {
-  // .section-title {
-  //   font-size: 20px;
-  // }
   .save {
     max-width: 350px;
     text-align: center;
@@ -388,5 +399,12 @@
     padding: 0;
     font-size: 14px;
     line-height: 1.5;
+  }
+}
+
+@media screen and (min-width: 821px) and (max-width: 822px) {
+  .ocean__item.first,
+  .ocean__item.second {
+    margin-top: 0;
   }
 }

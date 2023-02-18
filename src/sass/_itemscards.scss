@@ -2,7 +2,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  overflow-y: scroll;
 }
+
+// .ocean__list::-webkit-scrollbar {
+//   width: 0;
+//   height: 0;
+// }
 
 .ocean__item {
   width: calc((100% / 3) - 1rem);
