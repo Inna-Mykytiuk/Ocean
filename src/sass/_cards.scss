@@ -1,0 +1,116 @@
+.section-stories {
+  padding-bottom: 0;
+}
+
+.main-cards {
+  // max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 0;
+  // background: rgb(138, 156, 146);
+  // background: linear-gradient(
+  //   180deg,
+  //   rgba(138, 156, 146, 0.6615021008403361) 25%,
+  //   rgba(49, 94, 110, 0.6446953781512605) 70%
+  // );
+
+  background: rgb(89, 182, 214);
+  background: linear-gradient(
+    180deg,
+    rgba(89, 182, 214, 0.48503151260504207) 25%,
+    rgba(96, 123, 131, 1) 70%
+  );
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  // background: linear-gradient(to bottom left, #ef8d9c 40%, #ffc39e 100%);
+  // background: rgb(168, 191, 179);
+  // background: linear-gradient(
+  //   180deg,
+  //   rgba(168, 191, 179, 0.6615021008403361) 25%,
+  //   rgba(49, 94, 110, 0.6446953781512605) 70%
+  // );
+
+  background: rgba(136, 178, 193, 0.8);
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+.made_by {
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
