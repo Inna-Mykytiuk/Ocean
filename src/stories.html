@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <title>Save the Ocean</title>
+    <link rel="stylesheet" href="./sass/index.scss" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <section class="section">
+      <header class="header" id="header">
+        <div class="container">
+          <div class="header-inner">
+            <a href="./index.html" class="header-logo">Ocean</a>
+            <div class="nav" id="nav">
+              <a href="./index.html" class="nav-link">Home</a>
+              <a href="/src/stories.html" class="nav-link">Stories</a>
+              <a href="#contacts" class="nav-link" data-scroll="#contacts"
+                >Contacts</a
+              >
+            </div>
+            <button class="nav-toggle" id="nav_toggle" type="button">
+              <span class="nav-toggle-item"></span>
+            </button>
+          </div>
+        </div>
+      </header>
+      <div class="hero4" id="intro">
+        <div class="container container-hero" id="home">
+          <!-- <h1 class="save">Save the<span> Ocean</span></h1> -->
+          <p class="save__text">
+            Once upon a time, the earth was just a hot, molten ball of fire. But
+            as it cooled, the continents took shape and the oceans arose. The
+            ocean was born from the rain that fell on the young earth and was
+            slowly gathered into vast bodies of water. Over millions of years,
+            the ocean gave birth to countless species of animals and plants,
+            making it a kingdom of wonder and diversity. The ocean is not just a
+            body of water, but a vital part of the earth that sustains life. It
+            provides the air we breathe, the weather patterns that shape our
+            world, and the food we eat. It also supports countless industries,
+            from fishing to tourism, and is home to countless species of plants
+            and animals.
+          </p>
+          <p class="save__text">
+            Once upon a time, the earth was just a hot, molten ball of fire. But
+            as it cooled, the continents took shape and the oceans arose. The
+            ocean was born from the rain that fell on the young earth and was
+            slowly gathered into vast bodies of water. Over millions of years,
+            the ocean gave birth to countless species of animals and plants,
+            making it a kingdom of wonder and diversity. The ocean is not just a
+            body of water, but a vital part of the earth that sustains life. It
+            provides the air we breathe, the weather patterns that shape our
+            world, and the food we eat. It also supports countless industries,
+            from fishing to tourism, and is home to countless species of plants
+            and animals.
+          </p>
+        </div>
+      </div>
+      <!-- <div class="hero2"></div> -->
+      <!-- <div class="hero3">
+        <div class="container">
+          <p class="save__text1">
+            The ocean is a source of beauty, inspiration, and mystery, a place
+            where we can escape the chaos of the world and find peace. However,
+            the ocean is facing many challenges, from climate change to
+            pollution and overfishing. It is up to us, the humans, to protect
+            this magnificent kingdom and ensure its survival for future
+            generations. We can do this by reducing our carbon footprint,
+            properly disposing of waste, and advocating for stronger ocean
+            conservation laws. We can also support organizations that work to
+            protect the ocean and its inhabitants. If we all work together, we
+            can save the ocean and preserve its magic and wonder for generations
+            to come.
+          </p>
+        </div>
+      </div> -->
+    </section>
+    <main class="stories"></main>
+
+    <footer class="footer-section" id="contacts">
+      <section class="section waves">
+        <svg viewBox="0 0 2 1" preserveAspectRatio="none" class="waves-svg">
+          <defs>
+            <path
+              id="w"
+              d="
+                m0 1v-.5 
+                q.5.5 1 0
+                t1 0 1 0 1 0
+                v.5z"
+            />
+          </defs>
+          <g>
+            <use href="#w" y=".0" fill="#315e6e" class="waves-use" />
+            <use href="#w" y=".1" fill="#3e798e" class="waves-use" />
+            <use href="#w" y=".2" fill="#458da6" class="waves-use" />
+          </g>
+        </svg>
+      </section>
+      <include src="./partials/footer.html"></include>
+    </footer>
+
+    <!-- <include src="./partials/example.html"></include> -->
+
+    <!-- Scripts -->
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js"
+      integrity="sha512-q583ppKrCRc7N5O0n2nzUiJ+suUv7Et1JGels4bXOaMFQcamPk9HjdUknZuuFjBNs7tsMuadge5k9RzdmO+1GQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script src="./index.js" type="module"></script>
+    <script src="./scroll.js" type="module"></script>
+    <script src="./slider.js"></script>
+  </body>
+</html>

@@ -28,6 +28,7 @@ main {
   align-items: center;
   width: 100%;
   min-height: 100vh;
+  min-height: 100vh;
   // letter-spacing: 0.02em;
   // font-size: 14px;
   // line-height: 1.85;
@@ -38,6 +39,10 @@ main {
   //   rgba(96, 155, 173, 0.4514180672268907) 70%
   // );
 }
+
+// main .index {
+//   min-height: 100vh;
+// }
 
 body::-webkit-scrollbar {
   appearance: none;
