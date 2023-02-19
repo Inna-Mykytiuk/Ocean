@@ -407,11 +407,15 @@
 
 .hero1,
 .hero3 {
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    background-image: url(../images/hero@2.webp);
-    max-width: 428px;
+  @media (max-width: 480px) {
+    background-image: url(../images/hero1@1@1.webp);
+
+    // 2x screens, retina
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url(../images/hero1@1@2.webp);
+    }
   }
 }
 
