@@ -1,17 +1,17 @@
-// .hero1 {
-//   width: 100%;
-//   height: 100vh;
-//   display: flex;
-//   background-image: url(../images/hero1.jpg);
-//   background-size: cover;
-//   -webkit-background-size: cover; /* Safari/Chrome */
-//   -moz-background-size: cover; /* Firefox */
-//   -o-background-size: cover; /* Opera */
+.hero1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-image: url(../images/hero1.jpg);
+  background-size: cover;
+  -webkit-background-size: cover; /* Safari/Chrome */
+  -moz-background-size: cover; /* Firefox */
+  -o-background-size: cover; /* Opera */
 
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-attachment: fixed;
-// }
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 .hero2 {
   width: 100%;
@@ -27,38 +27,38 @@
   background-attachment: fixed;
 }
 
-// .hero3 {
-//   width: 100%;
-//   height: 100vh;
-//   background-image: url(../images/ocean1.jpg);
-//   background-size: cover;
-//   -webkit-background-size: cover; /* Safari/Chrome */
-//   -moz-background-size: cover; /* Firefox */
-//   -o-background-size: cover; /* Opera */
+.hero3 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/ocean1.jpg);
+  background-size: cover;
+  -webkit-background-size: cover; /* Safari/Chrome */
+  -moz-background-size: cover; /* Firefox */
+  -o-background-size: cover; /* Opera */
 
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-attachment: fixed;
-//   position: relative;
-//   top: 0;
-//   left: 0;
-//   overflow: auto;
-// }
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: auto;
+}
 
-// .hero4 {
-//   width: 100%;
-//   height: 100vh;
-//   display: flex;
-//   background-image: url(../images/bgstories.jpg);
-//   background-size: cover;
-//   -webkit-background-size: cover; /* Safari/Chrome */
-//   -moz-background-size: cover; /* Firefox */
-//   -o-background-size: cover; /* Opera */
-//   -ms-background-size: cover; /* Internet Explorer */
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-attachment: fixed;
-// }
+.hero4 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-image: url(../images/bgstories.jpg);
+  background-size: cover;
+  -webkit-background-size: cover; /* Safari/Chrome */
+  -moz-background-size: cover; /* Firefox */
+  -o-background-size: cover; /* Opera */
+  -ms-background-size: cover; /* Internet Explorer */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 .save {
   display: flex;
