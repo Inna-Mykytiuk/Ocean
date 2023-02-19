@@ -405,13 +405,17 @@
   }
 }
 
-@media screen and (min-width: 380px) and (max-width: 428px) {
-  .hero1,
-  .hero3 {
-    background-image: url('https://source.unsplash.com/150x85?sea​');
+.hero1,
+.hero3 {
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../images/hero@2.webp);
     max-width: 428px;
   }
+}
 
+@media screen and (min-width: 380px) and (max-width: 428px) {
   .hero2 {
     background-image: url('https://source.unsplash.com/150x85?sea​​breezes​');
     max-width: 428px;
