@@ -4,6 +4,10 @@
   display: flex;
   background-image: url(../images/hero1.jpg);
   background-size: cover;
+  -webkit-background-size: cover; /* Safari/Chrome */
+  -moz-background-size: cover; /* Firefox */
+  -o-background-size: cover; /* Opera */
+  -ms-background-size: cover; /* Internet Explorer */
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -14,10 +18,13 @@
   height: 450px;
   background-image: url(../images/octopus.jpg);
   background-size: cover;
+  -webkit-background-size: cover; /* Safari/Chrome */
+  -moz-background-size: cover; /* Firefox */
+  -o-background-size: cover; /* Opera */
+  -ms-background-size: cover; /* Internet Explorer */
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  // filter: blur(5px);
 }
 
 .hero3 {
@@ -25,6 +32,10 @@
   height: 100vh;
   background-image: url(../images/ocean1.jpg);
   background-size: cover;
+  -webkit-background-size: cover; /* Safari/Chrome */
+  -moz-background-size: cover; /* Firefox */
+  -o-background-size: cover; /* Opera */
+  -ms-background-size: cover; /* Internet Explorer */
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -40,16 +51,16 @@
   display: flex;
   background-image: url(../images/bgstories.jpg);
   background-size: cover;
+  -webkit-background-size: cover; /* Safari/Chrome */
+  -moz-background-size: cover; /* Firefox */
+  -o-background-size: cover; /* Opera */
+  -ms-background-size: cover; /* Internet Explorer */
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .save {
-  // position: absolute;
-  // width: fit-content;
-  // height: fit-content;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -78,7 +89,6 @@
   font-size: 18px;
   display: block;
   text-align: center;
-  // margin-top: 300px;
 }
 
 .save__text1 {
@@ -95,7 +105,6 @@
   transform: translate(-50%, -50%);
   // background-color: rgba(0, 70, 110, 0.4);
   backdrop-filter: blur(10px);
-  // backdrop-filter: blur(3px);
   text-align: center;
 }
 
