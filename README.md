@@ -5,4 +5,5 @@ Not only is the site aesthetically pleasing with its use of parallax scrolling a
 ##
 However, please note that media files may display incorrectly on iPhones. Despite this, the site's message is clear and urgent: we must take action to protect our oceans before it's too late. So if you're ready to learn more about why ocean conservation is so critical, be sure to visit this powerful website today!
 ##
-![preview](https://github.com/Inna-Mykytiuk/Ocean/blob/main/11.jpg)
+![preview](https://github.com/Inna-Mykytiuk/Ocean/blob/main/src/11.jpg)
+![preview](https://github.com/Inna-Mykytiuk/Ocean/blob/main/src/22.jpg)
