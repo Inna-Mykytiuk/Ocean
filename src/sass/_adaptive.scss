@@ -418,52 +418,51 @@
 //   }
 // }
 
-.hero1,
-.hero3 {
-  @media (min-width: 1200px) {
-    max-width: 696px;
-    padding: 200px 0;
-  }
+// .hero1,
+// .hero3 {
+//   @media (min-width: 1200px) {
+//     max-width: 100%;
+//   }
 
-  background-position: 50% 50%;
-  background-size: cover;
-  -webkit-background-size: cover;
-  text-align: center;
-  background-color: grey;
-  background-color: blue;
-  background-image: url(../images/hero-bg__480.jpg);
+//   background-position: 50% 50%;
+//   background-size: cover;
+//   -webkit-background-size: cover;
+//   text-align: center;
+//   background-color: grey;
+//   background-color: blue;
+//   background-image: url(../images/hero-bg__480.jpg);
 
-  // 2x screens, retina
-  @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    background-image: url(../images/hero-bg__480@2x.jpg);
-  }
+//   // 2x screens, retina
+//   @media screen and (min-device-pixel-ratio: 2),
+//     screen and (min-resolution: 192dpi),
+//     screen and (min-resolution: 2dppx) {
+//     background-image: url(../images/hero-bg__480@2x.jpg);
+//   }
 
-  // Tablet styles
-  @media (min-width: 480px) {
-    background-image: url(../images/hero-bg__768.jpg);
+//   // Tablet styles
+//   @media (min-width: 480px) {
+//     background-image: url(../images/hero-bg__768.jpg);
 
-    // 2x screens, retina
-    @media screen and (min-device-pixel-ratio: 2),
-      screen and (min-resolution: 192dpi),
-      screen and (min-resolution: 2dppx) {
-      background-image: url(../images/hero-bg__768@2x.jpg);
-    }
-  }
+//     // 2x screens, retina
+//     @media screen and (min-device-pixel-ratio: 2),
+//       screen and (min-resolution: 192dpi),
+//       screen and (min-resolution: 2dppx) {
+//       background-image: url(../images/hero-bg__768@2x.jpg);
+//     }
+//   }
 
-  // Desktop styles
-  @media (min-width: 768px) {
-    max-width: 1600px;
-    margin: 0 auto;
+//   // Desktop styles
+//   @media (min-width: 768px) {
+//     max-width: 100%;
+//     // margin: 0 auto;
 
-    background-image: url(../images/hero-bg__1600.jpg);
+//     background-image: url(../images/hero-bg__1600.jpg);
 
-    // 2x screens, retina
-    @media screen and (min-device-pixel-ratio: 2),
-      screen and (min-resolution: 192dpi),
-      screen and (min-resolution: 2dppx) {
-      background-image: url(../images/hero-bg__1600@2x.jpg);
-    }
-  }
-}
+//     // 2x screens, retina
+//     @media screen and (min-device-pixel-ratio: 2),
+//       screen and (min-resolution: 192dpi),
+//       screen and (min-resolution: 2dppx) {
+//       background-image: url(../images/hero-bg__1600@2x.jpg);
+//     }
+//   }
+// }
