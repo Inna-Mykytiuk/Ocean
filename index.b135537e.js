@@ -1,0 +1,2 @@
+!function(){const e=navigator.userAgent.toLowerCase();if(/webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/.test(e)){const e=document.querySelector(".bg-cover");e.classList.remove("bg-fixed");const o=document.querySelector(".hero3");o.style.display="none",e.appendChild(o)}}();
+//# sourceMappingURL=index.b135537e.js.map
