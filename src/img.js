@@ -27,5 +27,4 @@ if (mob) {
 
   const hiddenPart = document.querySelector('.hero3');
   hiddenPart.style.display = 'none';
-  // bgCover.appendChild(hiddenPart);
 }
