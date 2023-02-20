@@ -111,7 +111,12 @@
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-    background-image: url(../images/hero1@2.webp);
+    // background-image: url(../images/hero1@2.webp);
+    background: url(../images/hero1@2.webp);
+
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-attachment: fixed;
   }
 
   // Tablet styles
@@ -122,7 +127,12 @@
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
-      background-image: url(../images/hero1@2.webp);
+      // background-image: url(../images/hero1@2.webp);
+      background: url(../images/hero1@2.webp);
+
+      background-size: cover;
+      background-attachment: fixed;
+      -webkit-background-attachment: fixed;
     }
   }
 
@@ -134,7 +144,11 @@
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
-      background-image: url(../images/hero1@2.webp);
+      // background-image: url(../images/hero1@2.webp);
+      background: url(../images/hero1@2.webp);
+      background-size: cover;
+      background-attachment: fixed;
+      -webkit-background-attachment: fixed;
     }
   }
 }
