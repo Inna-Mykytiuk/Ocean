@@ -4,7 +4,7 @@
   "description": "",
   "homepage": "https://Inna-Mykytiuk.github.io/Ocean",
   "scripts": {
-    "start": "parcel src/*.html --open",
+    "start": "parcel src/*.html -p 3331 --open",
     "build": "parcel build src/*.html --public-url /Ocean/"
   },
   "repository": {
