@@ -6,9 +6,9 @@
 }
 
 .social__link {
-  display: block;
+  // display: block;
   color: #fff;
-  padding: 12px;
+  padding: 15px 12px 12px 12px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -43,3 +43,53 @@
     margin-right: 0px;
   }
 }
+
+.fa-brands {
+  font-size: 20px;
+}
+
+//варіант 2
+
+.footer_soc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer_soc ul li {
+  width: 40px;
+  height: 40px;
+  line-height: 20px;
+  margin: 0 5px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid #ffffff79;
+  float: left;
+  transition: all 0.5s ease;
+}
+.footer_soc ul li .fa-brands {
+  color: #fff;
+  margin-top: 8px;
+  transition: all 0.5s ease;
+}
+
+/* твиттер */
+.footer_soc ul li:hover.tt,
+.footer_soc ul li:hover.fb,
+.footer_soc ul li:hover.ig,
+.footer_soc ul li:hover.lnkd {
+  border: 3px solid #fce38a;
+  box-shadow: 0 0 15px #fce38a;
+  transition: all 0.3s ease-in-out;
+}
+.footer_soc ul li:hover .fa-twitter,
+.footer_soc ul li:hover .fa-instagram,
+.footer_soc ul li:hover .fa-linkedin-in,
+.footer_soc ul li:hover .fa-facebook {
+  color: #fce38a;
+  text-shadow: 0 0 15px #fce38a;
+  transition: all 0.3s ease-in-out;
+}
+// #00aced;
