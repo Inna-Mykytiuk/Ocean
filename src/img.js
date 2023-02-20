@@ -1,19 +1,7 @@
-const mediaFiles = document.querySelectorAll('img, video');
-
-function iosChecker() {
-  const isIos =
-    /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-  return isIos;
+var device = navigator.userAgent.toLowerCase();
+var mob = device.match(
+  /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/
+);
+if (mob) {
+  $('.bg-cover').removeClass('bg-fixed');
 }
-
-function handleMediaFiles() {
-  const isIos = iosChecker();
-  if (isIos) {
-    mediaFiles.forEach(media => {
-      media.setAttribute('playsinline', '');
-      media.setAttribute('controls', '');
-    });
-  }
-}
-
-handleMediaFiles();
