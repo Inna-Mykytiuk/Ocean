@@ -42,80 +42,53 @@
   }
 }
 
-// .hero2 {
-//   width: 100%;
-//   height: 450px;
-
-//   background-position: 50% 50%;
-//   background-size: cover;
-//   -webkit-background-size: cover;
-//   background-repeat: no-repeat;
-//   text-align: center;
-
-//   background-attachment: fixed;
-
-//   -webkit-background-attachment: fixed;
-
-//   background-attachment: local;
-
-//   background-color: white;
-//   background-image: url(../images/octopus_468.webp);
-
-//   // 2x screens, retina
-//   @media screen and (min-device-pixel-ratio: 2),
-//     screen and (min-resolution: 192dpi),
-//     screen and (min-resolution: 2dppx) {
-//     background-image: url(../images/octopus_468@2.webp);
-//   }
-
-//   // Tablet styles
-//   @media (min-width: 480px) {
-//     background-image: url(../images/octopus_768.webp);
-
-//     // 2x screens, retina
-//     @media screen and (min-device-pixel-ratio: 2),
-//       screen and (min-resolution: 192dpi),
-//       screen and (min-resolution: 2dppx) {
-//       background-image: url(../images/octopus_768@2.webp);
-//     }
-//   }
-
-//   // Desktop styles
-//   @media (min-width: 768px) {
-//     background-image: url(../images/octopus.webp);
-
-//     // 2x screens, retina
-//     @media screen and (min-device-pixel-ratio: 2),
-//       screen and (min-resolution: 192dpi),
-//       screen and (min-resolution: 2dppx) {
-//       background-image: url(../images/octopus@2.webp);
-//     }
-//   }
-// }
-
-.main-header {
-  background-image: url(../images/octopus@2.webp);
+.hero2 {
   width: 100%;
   height: 450px;
-}
-.bg-cover {
-  background-repeat: no-repeat;
-  background-position: center center;
+
+  background-position: 50% 50%;
   background-size: cover;
   -webkit-background-size: cover;
-}
-.bg-fixed {
-  background-attachment: fixed;
-}
+  background-repeat: no-repeat;
+  text-align: center;
 
-.main-header1 {
-  background-image: url(../images/hero1@2.webp);
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  top: 0;
-  left: 0;
-  overflow: auto;
+  background-attachment: fixed;
+
+  -webkit-background-attachment: fixed;
+
+  background-color: white;
+  background-image: url(../images/octopus@2.webp);
+
+  // 2x screens, retina
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    background-image: url(../images/octopus@2.webp);
+  }
+
+  // Tablet styles
+  @media (min-width: 480px) {
+    background-image: url(../images/octopus@2.webp);
+
+    // 2x screens, retina
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url(../images/octopus@2.webp);
+    }
+  }
+
+  // Desktop styles
+  @media (min-width: 768px) {
+    background-image: url(../images/octopus@2.webp);
+
+    // 2x screens, retina
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: url(../images/octopus@2.webp);
+    }
+  }
 }
 
 .hero3 {
