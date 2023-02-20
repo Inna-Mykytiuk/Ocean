@@ -97,12 +97,12 @@
   background-repeat: no-repeat;
   text-align: center;
 
-  background-attachment: fixed;
+  // background-attachment: fixed;
   position: relative;
   top: 0;
   left: 0;
   overflow: auto;
-  background-image: url(../images/hero1_468.webp);
+  background-image: url(../images/hero1.webp);
 
   // 2x screens, retina
   @media screen and (min-device-pixel-ratio: 2),
@@ -113,13 +113,13 @@
 
   // Tablet styles
   @media (min-width: 480px) {
-    background-image: url(../images/hero1_768.webp);
+    background-image: url(../images/hero1.webp);
 
     // 2x screens, retina
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
-      background-image: url(../images/hero1_768@2.webp);
+      background-image: url(../images/hero1@2.webp);
     }
   }
 
