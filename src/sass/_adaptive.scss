@@ -78,6 +78,10 @@
   .ocean__item.second {
     margin-top: 80px;
   }
+
+  .ocean__list {
+    overflow-y: scroll;
+  }
 }
 
 @media (max-width: 768px) {
@@ -380,11 +384,11 @@
     display: block;
   }
 }
-// @media (max-width: 2000px) {
-//   .ocean__list {
-//     overflow-y: hidden;
-//   }
-// }
+@media (max-width: 2000px) {
+  .ocean__list {
+    overflow-y: hidden;
+  }
+}
 
 @media (max-height: 540px) {
   .save {
