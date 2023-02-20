@@ -53,7 +53,6 @@
   text-align: center;
 
   background-attachment: fixed;
-
   -webkit-background-attachment: fixed;
 
   background-color: white;
@@ -68,19 +67,19 @@
 
   // Tablet styles
   @media (min-width: 480px) {
-    background-image: url(../images/octopus@2.webp);
+    background-image: url(../images/octopus_768.webp);
 
     // 2x screens, retina
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
-      background-image: url(../images/octopus@2.webp);
+      background-image: url(../images/octopus_768@2.webp);
     }
   }
 
   // Desktop styles
   @media (min-width: 768px) {
-    background-image: url(../images/octopus@2.webp);
+    background-image: url(../images/octopus.webp);
 
     // 2x screens, retina
     @media screen and (min-device-pixel-ratio: 2),
