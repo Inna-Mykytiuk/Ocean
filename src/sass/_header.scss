@@ -54,24 +54,24 @@
 
   background-attachment: fixed;
   background-color: white;
-  background-image: url(../images/octopus.webp);
+  background-image: url(../images/octopus_468.webp);
 
   // 2x screens, retina
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-    background-image: url(../images/octopus@2.webp);
+    background-image: url(../images/octopus_468@2.webp);
   }
 
   // Tablet styles
   @media (min-width: 480px) {
-    background-image: url(../images/octopus.webp);
+    background-image: url(../images/octopus_768.webp);
 
     // 2x screens, retina
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
-      background-image: url(../images/octopus@2.webp);
+      background-image: url(../images/octopus_768@2.webp);
     }
   }
 
