@@ -98,6 +98,17 @@
   width: 100%;
   height: 450px;
 }
+
+.main-header1 {
+  background-image: url(../images/hero1@2.webp);
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: auto;
+}
+
 .bg-cover {
   background-repeat: no-repeat;
   background-position: center center;
@@ -108,53 +119,53 @@
   background-attachment: fixed;
 }
 
-.hero3 {
-  width: 100%;
-  height: 100vh;
-  background-position: 50% 50%;
-  background-size: cover;
-  -webkit-background-size: cover;
-  background-repeat: no-repeat;
-  text-align: center;
+// .hero3 {
+//   width: 100%;
+//   height: 100vh;
+//   background-position: 50% 50%;
+//   background-size: cover;
+//   -webkit-background-size: cover;
+//   background-repeat: no-repeat;
+//   text-align: center;
 
-  background-attachment: fixed;
-  position: relative;
-  top: 0;
-  left: 0;
-  overflow: auto;
-  background-image: url(../images/hero1_468.webp);
+//   background-attachment: fixed;
+//   position: relative;
+//   top: 0;
+//   left: 0;
+//   overflow: auto;
+//   background-image: url(../images/hero1_468.webp);
 
-  // 2x screens, retina
-  @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx) {
-    background-image: url(../images/hero1@2.webp);
-  }
+//   // 2x screens, retina
+//   @media screen and (min-device-pixel-ratio: 2),
+//     screen and (min-resolution: 192dpi),
+//     screen and (min-resolution: 2dppx) {
+//     background-image: url(../images/hero1@2.webp);
+//   }
 
-  // Tablet styles
-  @media (min-width: 480px) {
-    background-image: url(../images/hero1_768.webp);
+//   // Tablet styles
+//   @media (min-width: 480px) {
+//     background-image: url(../images/hero1_768.webp);
 
-    // 2x screens, retina
-    @media screen and (min-device-pixel-ratio: 2),
-      screen and (min-resolution: 192dpi),
-      screen and (min-resolution: 2dppx) {
-      background-image: url(../images/hero1_768@2.webp);
-    }
-  }
+//     // 2x screens, retina
+//     @media screen and (min-device-pixel-ratio: 2),
+//       screen and (min-resolution: 192dpi),
+//       screen and (min-resolution: 2dppx) {
+//       background-image: url(../images/hero1_768@2.webp);
+//     }
+//   }
 
-  // Desktop styles
-  @media (min-width: 768px) {
-    background-image: url(../images/hero1.webp);
+//   // Desktop styles
+//   @media (min-width: 768px) {
+//     background-image: url(../images/hero1.webp);
 
-    // 2x screens, retina
-    @media screen and (min-device-pixel-ratio: 2),
-      screen and (min-resolution: 192dpi),
-      screen and (min-resolution: 2dppx) {
-      background-image: url(../images/hero1@2.webp);
-    }
-  }
-}
+//     // 2x screens, retina
+//     @media screen and (min-device-pixel-ratio: 2),
+//       screen and (min-resolution: 192dpi),
+//       screen and (min-resolution: 2dppx) {
+//       background-image: url(../images/hero1@2.webp);
+//     }
+//   }
+// }
 
 .hero4 {
   // display: flex;
