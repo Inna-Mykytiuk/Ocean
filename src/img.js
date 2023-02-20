@@ -33,6 +33,8 @@ if (mob) {
   // const bgCover = document.querySelector('.bg-cover');
   // bgCover.classList.remove('bg-fixed');
 
-  const hiddenPart = document.querySelector('.hero3, .hero2');
-  hiddenPart.style.display = 'none';
+  const hiddenHeroSecond = document.querySelector('.hero2');
+  const hiddenHeroThird = document.querySelector('.hero3');
+  hiddenHeroSecond.style.display = 'none';
+  hiddenHeroThird.style.display = 'none';
 }
