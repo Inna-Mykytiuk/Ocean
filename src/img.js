@@ -25,8 +25,7 @@ if (mob) {
   const bgCover = document.querySelector('.bg-cover');
   bgCover.classList.remove('bg-fixed');
 
-  const hiddenPart = document.createElement('div');
-  hiddenPart.classList.add('hero3');
+  const hiddenPart = document.querySelector('.hero3');
   hiddenPart.style.display = 'none';
   bgCover.appendChild(hiddenPart);
 }
