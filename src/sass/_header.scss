@@ -151,36 +151,36 @@
   background-repeat: no-repeat;
 
   background-color: white;
-  background-image: url(../images/hero1.webp);
+  background-image: url(../images/bgstories1@2.webp);
 
   // 2x screens, retina
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-    background-image: url(../images/hero1@2.webp);
+    background-image: url(../images/bgstories1@2.webp);
   }
 
   // Tablet styles
   @media (min-width: 480px) {
-    background-image: url(../images/hero1.webp);
+    background-image: url(../images/bgstories1@2.webp);
 
     // 2x screens, retina
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
-      background-image: url(../images/hero1@2.webp);
+      background-image: url(../images/bgstories1@2.webp);
     }
   }
 
   // Desktop styles
   @media (min-width: 768px) {
-    background-image: url(../images/hero1.webp);
+    background-image: url(../images/bgstories1@2.webp);
 
     // 2x screens, retina
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
-      background-image: url(../images/hero1@2.webp);
+      background-image: url(../images/bgstories1@2.webp);
     }
   }
 }
