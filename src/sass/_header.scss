@@ -53,6 +53,10 @@
   text-align: center;
 
   background-attachment: fixed;
+  // position: relative;
+  // top: 0;
+  // left: 0;
+  overflow: auto;
   background-color: white;
   background-image: url(../images/octopus.webp);
 
@@ -97,7 +101,7 @@
   background-repeat: no-repeat;
   text-align: center;
 
-  // background-attachment: fixed;
+  background-attachment: fixed;
   position: relative;
   top: 0;
   left: 0;
