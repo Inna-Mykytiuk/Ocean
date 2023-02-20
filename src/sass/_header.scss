@@ -45,6 +45,7 @@
 .hero2 {
   width: 100%;
   height: 450px;
+  background: url(../images/octopus_468.webp);
 
   background-position: 50% 50%;
   background-size: cover;
@@ -55,36 +56,46 @@
   background-attachment: fixed;
   overflow: auto;
   background-color: white;
-  background-image: url(../images/octopus_468.webp);
+  background: url(../images/octopus_468.webp);
 
   // 2x screens, retina
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     background-image: url(../images/octopus_468@2.webp);
+    background-size: cover;
+    -webkit-background-size: cover;
   }
 
   // Tablet styles
   @media (min-width: 480px) {
-    background-image: url(../images/octopus_768.webp);
+    background: url(../images/octopus_768.webp);
+    background-size: cover;
+    -webkit-background-size: cover;
 
     // 2x screens, retina
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
       background-image: url(../images/octopus_768@2.webp);
+      background-size: cover;
+      -webkit-background-size: cover;
     }
   }
 
   // Desktop styles
   @media (min-width: 768px) {
-    background-image: url(../images/octopus.webp);
+    background: url(../images/octopus.webp);
+    background-size: cover;
+    -webkit-background-size: cover;
 
     // 2x screens, retina
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
       background-image: url(../images/octopus@2.webp);
+      background-size: cover;
+      -webkit-background-size: cover;
     }
   }
 }
@@ -100,39 +111,53 @@
 
   background-attachment: fixed;
   position: relative;
-  // top: 0;
-  // left: 0;
+  top: 0;
+  left: 0;
   overflow: auto;
-  background-image: url(../images/hero1.webp);
+  background: url(../images/hero1.webp);
 
   // 2x screens, retina
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     background-image: url(../images/hero1@2.webp);
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-attachment: fixed;
   }
 
   // Tablet styles
   @media (min-width: 480px) {
-    background-image: url(../images/hero1.webp);
+    background: url(../images/hero1.webp);
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-attachment: fixed;
 
     // 2x screens, retina
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
       background-image: url(../images/hero1@2.webp);
+      background-size: cover;
+      -webkit-background-size: cover;
+      background-attachment: fixed;
     }
   }
 
   // Desktop styles
   @media (min-width: 768px) {
-    background-image: url(../images/hero1.webp);
+    background: url(../images/hero1.webp);
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-attachment: fixed;
 
     // 2x screens, retina
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
       background-image: url(../images/hero1@2.webp);
+      background-size: cover;
+      -webkit-background-size: cover;
     }
   }
 }
