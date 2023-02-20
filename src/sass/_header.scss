@@ -53,6 +53,7 @@
   text-align: center;
 
   background-attachment: fixed;
+  -webkit-background-attachment: fixed;
   overflow: auto;
   background-color: rgba(102, 99, 99, 0.226);
   background-image: url(../images/octopus.webp);
@@ -62,71 +63,29 @@
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
     background-image: url(../images/octopus@2.webp);
-
-    background-position: 50% 50%;
-    background-size: cover;
-    -webkit-background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-
-    background-attachment: fixed;
-    overflow: auto;
   }
 
   // Tablet styles
   @media (min-width: 480px) {
     background-image: url(../images/octopus.webp);
 
-    background-position: 50% 50%;
-    background-size: cover;
-    -webkit-background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-
-    background-attachment: fixed;
-    overflow: auto;
-
     // 2x screens, retina
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
       background-image: url(../images/octopus@2.webp);
-      background-position: 50% 50%;
-      background-size: cover;
-      -webkit-background-size: cover;
-      background-repeat: no-repeat;
-      text-align: center;
-
-      background-attachment: fixed;
-      overflow: auto;
     }
   }
 
   // Desktop styles
   @media (min-width: 768px) {
     background-image: url(../images/octopus.webp);
-    background-position: 50% 50%;
-    background-size: cover;
-    -webkit-background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-
-    background-attachment: fixed;
-    overflow: auto;
 
     // 2x screens, retina
     @media screen and (min-device-pixel-ratio: 2),
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
       background-image: url(../images/octopus@2.webp);
-      background-position: 50% 50%;
-      background-size: cover;
-      -webkit-background-size: cover;
-      background-repeat: no-repeat;
-      text-align: center;
-
-      background-attachment: fixed;
-      overflow: auto;
     }
   }
 }
@@ -141,6 +100,7 @@
   text-align: center;
 
   background-attachment: fixed;
+  -webkit-background-attachment: fixed;
   position: relative;
   top: 0;
   left: 0;
@@ -182,6 +142,7 @@
 .hero4 {
   // display: flex;
   background-attachment: fixed;
+  -webkit-background-attachment: fixed;
 
   width: 100%;
   height: 100vh;
