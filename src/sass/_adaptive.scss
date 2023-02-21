@@ -384,7 +384,7 @@
     display: block;
   }
 }
-@media (max-width: 2000px) {
+@media (min-width: 1600px) {
   .ocean__list {
     overflow-y: hidden;
   }
