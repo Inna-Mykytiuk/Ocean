@@ -79,9 +79,10 @@
     margin-top: 80px;
   }
 
-  // .ocean__list {
-  //   overflow-y: hidden;
-  // }
+  .ocean__list {
+    // overflow-y: hidden;
+    overflow-y: scroll;
+  }
 }
 
 @media (max-width: 768px) {
@@ -210,7 +211,7 @@
   }
 
   .ocean__list {
-    overflow-y: block;
+    overflow-y: scroll;
   }
 }
 
@@ -278,6 +279,9 @@
   .footer-form__input {
     min-width: 300px;
   }
+  .ocean__list {
+    overflow-y: scroll;
+  }
 }
 
 @media (max-width: 380px) {
@@ -322,6 +326,9 @@
 
   .footer-form__input {
     min-width: 300px;
+  }
+  .ocean__list {
+    overflow-y: scroll;
   }
 }
 

@@ -2,7 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  overflow-y: scroll;
+  // overflow-y: scroll;
+  // ::-webkit-scrollbar {
+  //   display: none;
+  // }
 }
 
 .ocean__list::-webkit-scrollbar {
