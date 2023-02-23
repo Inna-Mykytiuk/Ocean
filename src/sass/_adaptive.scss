@@ -208,6 +208,10 @@
   .ocean__item.second {
     margin-top: 0;
   }
+
+  .ocean__list {
+    overflow-y: block;
+  }
 }
 
 @media (max-width: 480px) {
