@@ -5,6 +5,10 @@
   overflow-y: scroll;
 }
 
+.ocean__list::-webkit-scrollbar {
+  display: none;
+}
+
 .ocean__item {
   width: calc((100% / 3) - 1rem);
   margin-bottom: 30px;
