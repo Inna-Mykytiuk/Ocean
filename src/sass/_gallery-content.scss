@@ -35,7 +35,14 @@
   left: 0;
   z-index: 100;
 
-  background-color: rgba(0, 70, 110, 0.7);
+  // background-color: rgba(0, 70, 110, 0.7);
+  background: rgba(0, 70, 110, 0.7);
+  background: linear-gradient(
+    180deg,
+    rgba(112, 151, 131, 0.8) 30%,
+    rgba(0, 70, 110, 0.9) 70%
+  );
+
   opacity: 0;
   transition: opacity 0.2s linear;
 }
