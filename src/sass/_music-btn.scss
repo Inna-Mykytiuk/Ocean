@@ -1,3 +1,7 @@
+.ocean-sound {
+  padding-top: 100px;
+}
+
 .section.music {
   width: 100%;
   background-color: #607b83;
@@ -5,7 +9,7 @@
 
 .music {
   background-color: #607b83;
-  margin: 100px 0;
+  margin-bottom: 100px;
   padding: 100px 0;
   overflow: hidden;
 }
@@ -16,25 +20,12 @@
   align-items: center;
 }
 
-// .music-box__btn {
-//   display: block;
-//   width: 140px;
-//   height: 140px;
-//   line-height: 20px;
-//   // margin: 0 5px;
-//   text-align: center;
-//   cursor: pointer;
-//   border-radius: 50%;
-//   border: 3px solid #ffffff79;
-//   transition: all 0.3s ease-in-out;
-// }
-
 .music-box__btn {
   display: flex;
   align-items: center;
   justify-content: center;
   backdrop-filter: blur(10px);
-  background-color: transparent;
+  background-color: rgba(78, 159, 185, 0.603);
   border: none;
   cursor: pointer;
   padding: 0;
@@ -45,13 +36,17 @@
   transition: all 0.2s;
   position: relative;
   z-index: 0;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3),
-    inset 0 -5px 5px rgba(255, 255, 255, 0.5);
+  // box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3),
+  //   inset 0 -5px 5px rgba(255, 255, 255, 0.5);
+  -webkit-box-shadow: 10px 10px 30px -1px rgb(0 0 0 / 15%),
+    -6px -6px 30px -1px rgb(225 233 237 / 80%);
+  box-shadow: 10px 10px 30px -1px rgb(0 0 0 / 15%),
+    -6px -6px 30px -1px rgb(49 94 110/ 80%);
   transform: translateY(-2px);
 }
 
 .music-box__btn:hover {
-  background-color: #c2c2c2;
+  background-color: rgba(104, 208, 243, 0.6);
 }
 
 .music-box__btn:focus {
@@ -63,7 +58,7 @@
 }
 
 .music__icon {
-  fill: #415358;
+  fill: rgb(49, 94, 110);
   width: 80px;
   height: 80px;
 }
