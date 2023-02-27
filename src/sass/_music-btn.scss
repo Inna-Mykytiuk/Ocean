@@ -47,8 +47,8 @@
 }
 
 .music-box__btn.active {
-  background-color: rgba(104, 208, 243, 0.6);
-  border: 3px solid #fce38a;
+  background-color: transparent;
+  border: 8px solid #fce38a;
   box-shadow: 0 0 20px #fce38a;
   outline: none;
 }
@@ -59,8 +59,9 @@
 }
 
 .music-box__btn:hover {
-  background-color: rgba(104, 208, 243, 0.6);
-  border: 3px solid #fce38a;
+  // background-color: rgba(104, 208, 243, 0.6);
+  background-color: transparent;
+  border: 8px solid #fce38a;
   box-shadow: 0 0 20px #fce38a;
   outline: none;
 }
