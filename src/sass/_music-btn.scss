@@ -17,15 +17,12 @@
 .music-box__list {
   display: flex;
   flex-wrap: wrap;
-  // justify-content: space-between;
   align-items: center;
-  // gap: 30px;
 }
 
 .music-box__item {
   margin: 0;
   padding: 0;
-  // width: calc((100% - 150px) / 6);
 }
 
 .music-box__btn {
@@ -80,7 +77,6 @@
   fill: rgb(49, 94, 110);
   width: 80px;
   height: 80px;
-  // transition: fill 0.3s ease-in-out;
 }
 
 .music-box__btn:hover .music__icon {
