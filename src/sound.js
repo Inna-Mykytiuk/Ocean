@@ -18,17 +18,3 @@ buttons.forEach(button => {
     }
   });
 });
-
-// // Get all the buttons in the music box
-// const buttons = document.querySelectorAll('.music-box__btn');
-
-// // Add a click event listener to each button
-// buttons.forEach(button => {
-//   button.addEventListener('click', () => {
-//     // Get the audio element inside the button
-//     const audio = button.querySelector('audio');
-
-//     // Play the audio
-//     audio.play();
-//   });
-// });
