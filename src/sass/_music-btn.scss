@@ -9,3 +9,69 @@
   padding: 100px 0;
   overflow: hidden;
 }
+
+.music-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// .music-box__btn {
+//   display: block;
+//   width: 140px;
+//   height: 140px;
+//   line-height: 20px;
+//   // margin: 0 5px;
+//   text-align: center;
+//   cursor: pointer;
+//   border-radius: 50%;
+//   border: 3px solid #ffffff79;
+//   transition: all 0.3s ease-in-out;
+// }
+
+.music-box__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  transition: all 0.2s;
+  position: relative;
+  z-index: 0;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3),
+    inset 0 -5px 5px rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.music-box__btn:hover {
+  background-color: #c2c2c2;
+}
+
+.music-box__btn:focus {
+  outline: none;
+}
+
+.music-box__btn:active {
+  transform: translateY(1px);
+}
+
+.music__icon {
+  fill: #415358;
+  width: 80px;
+  height: 80px;
+}
+
+.music-box__btn:active .music__icon {
+  fill: #fce38a;
+}
+
+.music-box__btn:focus {
+  outline: none;
+}
