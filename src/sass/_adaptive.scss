@@ -83,13 +83,6 @@
     // overflow-y: hidden;
     overflow-y: scroll;
   }
-
-  .music-box__list {
-    justify-content: center;
-    max-width: 600px;
-    margin: 0 auto;
-    gap: 80px;
-  }
 }
 
 @media (max-width: 768px) {
@@ -219,11 +212,6 @@
 
   .ocean__list {
     overflow-y: scroll;
-  }
-  .music-box__list {
-    justify-content: center;
-    margin: 0 auto;
-    gap: 30px;
   }
 }
 
@@ -370,11 +358,6 @@
   }
   .waves-svg {
     height: 350px;
-  }
-  .music-box__list {
-    justify-content: space-between;
-
-    // gap: 30px;
   }
 }
 
