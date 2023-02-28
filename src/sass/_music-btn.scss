@@ -49,18 +49,6 @@
   transition: background-color 250ms ease-in-out;
 }
 
-.music-box__btn.active {
-  background-color: rgba(104, 208, 243, 0.6);
-  border: 3px solid #fce38a;
-  box-shadow: 0 0 20px #fce38a;
-  outline: none;
-}
-
-.music-box__btn.active .music__icon {
-  fill: #fce38a;
-  text-shadow: 0 0 15px #fce38a;
-}
-
 .music-box__btn:hover {
   background-color: rgba(104, 208, 243, 0.6);
   border: 3px solid #fce38a;
