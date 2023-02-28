@@ -36,6 +36,7 @@
               <a href="./index.html" class="nav-link">Home</a>
               <a href="#header" class="nav-link">Up</a>
               <a href="#narrations" class="nav-link">Narrations</a>
+              <a href="#ocean-sound" class="nav-link">Ocean sounds</a>
               <a href="#contacts" class="nav-link" data-scroll="#contacts"
                 >Contacts</a
               >
@@ -98,9 +99,32 @@
         </div>
       </div>
     </section>
-    <main class="main-cards">
+    <main>
       <section class="section section-cards">
         <include src="./partials/cards.html"></include>
+      </section>
+      <section class="section ocean-sound" id="ocean-sound">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="section-suptitle" id="narrations">
+              Sounds of the Ocean
+            </h3>
+            <h2 class="section-title">
+              "The sounds of the ocean, including the rhythmic crashing of waves
+              and the gentle lapping of water against the shore, can be both
+              soothing and invigorating."
+            </h2>
+            <h3 class="section-suptitle" id="narrations">
+              Press the button and feel the breath of the ocean, you can combine
+              the keys for enough effect...Enjoy
+            </h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- MusicBtn -->
+      <section class="section music">
+        <include src="./partials/musicBtn.html"></include>
       </section>
       <section class="section waves">
         <svg viewBox="0 0 2 1" preserveAspectRatio="none" class="waves-svg">
@@ -147,6 +171,7 @@
     ></script>
 
     <script src="./index.js" type="module"></script>
+    <script src="./sound.js" type="module"></script>
     <script src="./blured.js" type="module"></script>
     <script src="./scroll.js" type="module"></script>
     <script src="./slider.js"></script>
