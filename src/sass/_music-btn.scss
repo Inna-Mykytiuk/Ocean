@@ -10,7 +10,6 @@
 .music {
   background-color: #607b83;
   margin-bottom: 50px;
-  // padding: 100px 0;
   overflow: hidden;
 }
 
@@ -35,8 +34,6 @@
   cursor: pointer;
   padding: 0;
   margin: 0;
-  // width: 140px;
-  // height: 140px;
   border-radius: 50%;
   -webkit-box-shadow: 10px 10px 30px -1px rgb(0 0 0 / 15%),
     -6px -6px 30px -1px rgb(225 233 237 / 80%);
@@ -76,8 +73,6 @@
 
 .music__icon {
   fill: rgb(49, 94, 110);
-  // width: 80px;
-  // height: 80px;
 }
 
 .music-box__btn:hover .music__icon {

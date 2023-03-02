@@ -128,7 +128,6 @@
 .swiper-button-prev {
   color: #607b83;
   position: absolute;
-  // top: 30%;
   width: calc(var(--swiper-navigation-size) / 44 * 27);
   height: var(--swiper-navigation-size);
   margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
@@ -143,5 +142,4 @@
 .swiper-button-next,
 .swiper-button-prev {
   color: #607b83;
-  // top: 30%;
 }
