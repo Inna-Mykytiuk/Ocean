@@ -29,6 +29,8 @@
   &:hover {
     color: #607b83;
     background-color: #fce38a;
+    box-shadow: 0 0 15px #fce38a;
+    transition: all 0.3s ease-in-out;
   }
 }
 

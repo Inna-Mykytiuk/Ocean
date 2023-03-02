@@ -18,12 +18,14 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "autoprefixer": "^10.4.13",
     "gh-pages": "^5.0.0",
     "jquery": "^3.6.3",
     "modern-normalize": "^1.1.0",
     "simplelightbox": "^2.12.1",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "wow.js": "^1.2.2"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",

@@ -1,5 +1,6 @@
 .section.organization {
   padding: 0;
+  margin-bottom: 50px;
 }
 
 .organization-wrapper {
@@ -57,6 +58,7 @@
   &:focus {
     color: #fce38a;
     transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
   }
 }
 
@@ -66,3 +68,8 @@
   fill: currentColor;
   height: 100px;
 }
+
+// .organization__link:hover .organization__icon {
+//   box-shadow: 0 0 15px #fce38a;
+//   transition: all 0.3s ease-in-out;
+// }
