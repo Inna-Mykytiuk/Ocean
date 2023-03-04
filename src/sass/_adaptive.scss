@@ -412,6 +412,10 @@
   .ocean__list {
     overflow-y: scroll;
   }
+  .full-screen__text {
+    max-width: 320px;
+    font-size: 22px;
+  }
 }
 
 @media screen and (min-width: 667px) and (max-width: 896px) {
@@ -503,6 +507,7 @@
     display: block;
   }
 }
+
 @media (min-width: 1600px) {
   .ocean__list {
     overflow-y: hidden;

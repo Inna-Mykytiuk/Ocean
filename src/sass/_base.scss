@@ -29,15 +29,6 @@ main {
   width: 100%;
   min-height: 100vh;
   min-height: 100vh;
-  // letter-spacing: 0.02em;
-  // font-size: 14px;
-  // line-height: 1.85;
-  // background: rgb(168, 191, 179);
-  // background: linear-gradient(
-  //   180deg,
-  //   rgba(168, 191, 179, 0.35057773109243695) 25%,
-  //   rgba(96, 155, 173, 0.4514180672268907) 70%
-  // );
 }
 
 // main .index {
@@ -98,25 +89,6 @@ a {
   color: #2f2f37;
   max-width: 960px;
   padding: 16px;
-}
-
-.example code {
-  font-family: monospace;
-  font-size: 16px;
-  font-weight: 700;
-  background-color: #ff6b0a;
-  color: #fff;
-  padding: 2px 6px;
-  border-radius: 2px;
-}
-
-.example .background {
-  height: 240px;
-  // ❗️❗️❗️ The path to images from a SASS file
-  // is always the same as from the css folder.
-  background-image: url('../images/logo.png');
-  background-size: cover;
-  background-position: center;
 }
 
 header {
