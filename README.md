@@ -7,5 +7,6 @@ However, please note that media files may display incorrectly on iPhones. Despit
 ##
 ![preview](https://github.com/Inna-Mykytiuk/Ocean/blob/main/src/11.jpg)
 ![preview](https://github.com/Inna-Mykytiuk/Ocean/blob/main/src/22.jpg)
+![preview](https://github.com/Inna-Mykytiuk/Ocean/blob/main/src/22.jpg)
 ####
 
